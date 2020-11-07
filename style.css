@@ -1,0 +1,60 @@
+/* CSS files add styling rules to your content */
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap");
+
+body {
+  background-color: #ffe6f0;
+}
+
+h1 {
+  font-family: "Grenze Gotisch", cursive;
+  text-align: center;
+  color: #a300cc;
+}
+
+h3 {
+  text-align: center;
+  color: #8533ff;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 20px;
+  margin-left: 200px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: 20px;
+  margin-left: 335px;
+}
+
+
